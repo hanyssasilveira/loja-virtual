@@ -54,6 +54,10 @@ Ou abra o projeto no VS Code (com a extensão *Extension Pack for Java*) e rode 
 - Testes automatizados com JUnit
 - Interface web (front-end)
 
-## 👩‍💻 Autora
+## 👩‍💻 Autora: Hanyssa Silveira
 
 Desenvolvido como parte da jornada de estudos para me tornar desenvolvedora full stack.
+
+## RESULTADO NO TERMINAL:
+<img width="514" height="344" alt="image" src="https://github.com/user-attachments/assets/04c7df55-275d-478e-8443-2c4a68415efd" />
+
