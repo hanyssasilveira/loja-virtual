@@ -17,23 +17,24 @@ Simula o fluxo de uma compra online: cadastro de produtos, carrinho de compras, 
 
 ## 🗂️ Estrutura do projeto
 
+```
 src/
 ├── Main.java
 ├── model/
-│ ├── Produto.java
-│ ├── ProdutoFisico.java
-│ ├── ProdutoDigital.java
-│ ├── ItemCarrinho.java
-│ ├── Carrinho.java
-│ ├── Cliente.java
-│ └── Pedido.java
+│   ├── Produto.java
+│   ├── ProdutoFisico.java
+│   ├── ProdutoDigital.java
+│   ├── ItemCarrinho.java
+│   ├── Carrinho.java
+│   ├── Cliente.java
+│   └── Pedido.java
 ├── service/
-│ ├── CalculadoraFrete.java
-│ ├── FreteFixo.java
-│ └── FretePorPeso.java
+│   ├── CalculadoraFrete.java
+│   ├── FreteFixo.java
+│   └── FretePorPeso.java
 └── exception/
-└── EstoqueInsuficienteException.java
-
+    └── EstoqueInsuficienteException.java
+```
 
 ## ▶️ Como executar
 
