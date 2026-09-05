@@ -16,3 +16,43 @@ Simula o fluxo de uma compra online: cadastro de produtos, carrinho de compras, 
 - **Exceções customizadas**: `EstoqueInsuficienteException` impede vendas acima do estoque disponível
 
 ## 🗂️ Estrutura do projeto
+
+src/
+├── Main.java
+├── model/
+│ ├── Produto.java
+│ ├── ProdutoFisico.java
+│ ├── ProdutoDigital.java
+│ ├── ItemCarrinho.java
+│ ├── Carrinho.java
+│ ├── Cliente.java
+│ └── Pedido.java
+├── service/
+│ ├── CalculadoraFrete.java
+│ ├── FreteFixo.java
+│ └── FretePorPeso.java
+└── exception/
+└── EstoqueInsuficienteException.java
+
+
+## ▶️ Como executar
+
+```bash
+git clone <url-do-repositorio>
+cd loja-virtual
+javac -d out src/Main.java src/model/*.java src/service/*.java src/exception/*.java
+java -cp out Main
+```
+
+Ou abra o projeto no VS Code (com a extensão *Extension Pack for Java*) e rode `Main.java` diretamente.
+
+## 🚀 Possíveis evoluções futuras
+
+- Persistência em banco de dados
+- Exposição como API REST (Spring Boot)
+- Testes automatizados com JUnit
+- Interface web (front-end)
+
+## 👩‍💻 Autora
+
+Desenvolvido como parte da jornada de estudos para me tornar desenvolvedora full stack.
