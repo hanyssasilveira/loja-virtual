@@ -2,7 +2,7 @@ import model.*;
 import service.*;
 import exception.EstoqueInsuficienteException;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         // Criando produtos (um físico, um digital)
         ProdutoFisico notebook = new ProdutoFisico("Notebook", 3500.00, "P001", 10, 2.5);
